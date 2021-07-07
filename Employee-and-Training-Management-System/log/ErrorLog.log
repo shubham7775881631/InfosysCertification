@@ -903,3 +903,1003 @@ Caused by: org.hibernate.AnnotationException: Illegal attempt to map a non colle
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[?:?]
 	at java.lang.Thread.run(Thread.java:832) ~[?:?]
+02-Jul-2021 17:47:39 INFO - Starting EmployeeAndTrainingManagementSystemApplication on LAPTOP-CPJ6JBEM with PID 16656 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+02-Jul-2021 17:47:39 INFO - No active profile set, falling back to default profiles: default
+02-Jul-2021 17:47:39 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-Jul-2021 17:47:39 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-Jul-2021 17:47:39 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+02-Jul-2021 17:47:39 INFO - Finished Spring Data repository scanning in 79ms. Found 2 JPA repository interfaces.
+02-Jul-2021 17:47:40 INFO - Tomcat initialized with port(s): 8765 (http)
+02-Jul-2021 17:47:40 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+02-Jul-2021 17:47:40 INFO - Starting service [Tomcat]
+02-Jul-2021 17:47:40 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+02-Jul-2021 17:47:40 INFO - Initializing Spring embedded WebApplicationContext
+02-Jul-2021 17:47:40 INFO - Root WebApplicationContext: initialization completed in 1653 ms
+02-Jul-2021 17:47:40 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+02-Jul-2021 17:47:40 INFO - HikariPool-1 - Starting...
+02-Jul-2021 17:47:41 INFO - HikariPool-1 - Start completed.
+02-Jul-2021 17:47:41 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-Jul-2021 17:47:41 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+02-Jul-2021 17:47:41 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-Jul-2021 17:47:41 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+02-Jul-2021 17:47:41 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-Jul-2021 17:47:42 WARN - Unable to start LiveReload server
+02-Jul-2021 17:47:42 INFO - Starting ProtocolHandler ["http-nio-8765"]
+02-Jul-2021 17:47:42 WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8765 is already in use
+02-Jul-2021 17:47:42 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+02-Jul-2021 17:47:42 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-Jul-2021 17:47:42 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-Jul-2021 17:47:42 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+02-Jul-2021 17:47:42 INFO - HikariPool-1 - Shutdown initiated...
+02-Jul-2021 17:47:42 INFO - HikariPool-1 - Shutdown completed.
+02-Jul-2021 17:47:42 INFO - Pausing ProtocolHandler ["http-nio-8765"]
+02-Jul-2021 17:47:42 INFO - Stopping service [Tomcat]
+02-Jul-2021 17:47:42 INFO - Stopping ProtocolHandler ["http-nio-8765"]
+02-Jul-2021 17:47:42 INFO - Destroying ProtocolHandler ["http-nio-8765"]
+02-Jul-2021 17:47:42 INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+02-Jul-2021 17:47:42 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8765 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8765 or configure this application to listen on another port.
+
+02-Jul-2021 17:48:03 INFO - Starting EmployeeAndTrainingManagementSystemApplication on LAPTOP-CPJ6JBEM with PID 10528 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+02-Jul-2021 17:48:03 INFO - No active profile set, falling back to default profiles: default
+02-Jul-2021 17:48:03 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02-Jul-2021 17:48:03 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02-Jul-2021 17:48:04 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+02-Jul-2021 17:48:04 INFO - Finished Spring Data repository scanning in 68ms. Found 2 JPA repository interfaces.
+02-Jul-2021 17:48:04 INFO - Tomcat initialized with port(s): 8765 (http)
+02-Jul-2021 17:48:04 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+02-Jul-2021 17:48:04 INFO - Starting service [Tomcat]
+02-Jul-2021 17:48:04 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+02-Jul-2021 17:48:05 INFO - Initializing Spring embedded WebApplicationContext
+02-Jul-2021 17:48:05 INFO - Root WebApplicationContext: initialization completed in 1555 ms
+02-Jul-2021 17:48:05 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+02-Jul-2021 17:48:05 INFO - HikariPool-1 - Starting...
+02-Jul-2021 17:48:05 INFO - HikariPool-1 - Start completed.
+02-Jul-2021 17:48:05 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+02-Jul-2021 17:48:05 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+02-Jul-2021 17:48:05 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+02-Jul-2021 17:48:05 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+02-Jul-2021 17:48:06 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02-Jul-2021 17:48:06 INFO - LiveReload server is running on port 35729
+02-Jul-2021 17:48:06 INFO - Starting ProtocolHandler ["http-nio-8765"]
+02-Jul-2021 17:48:06 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+02-Jul-2021 17:48:06 INFO - Triggering deferred initialization of Spring Data repositories…
+02-Jul-2021 17:48:06 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02-Jul-2021 17:48:06 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02-Jul-2021 17:48:07 INFO - Spring Data repositories initialized!
+02-Jul-2021 17:48:07 INFO - Started EmployeeAndTrainingManagementSystemApplication in 3.949 seconds (JVM running for 4.741)
+05-Jul-2021 08:03:24 INFO - Starting EmployeeAndTrainingManagementSystemApplication on LAPTOP-CPJ6JBEM with PID 13208 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 08:03:24 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 08:03:24 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+05-Jul-2021 08:03:24 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+05-Jul-2021 08:03:25 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+05-Jul-2021 08:03:26 INFO - Finished Spring Data repository scanning in 95ms. Found 2 JPA repository interfaces.
+05-Jul-2021 08:03:27 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 08:03:27 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 08:03:27 INFO - Starting service [Tomcat]
+05-Jul-2021 08:03:27 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+05-Jul-2021 08:03:27 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 08:03:27 INFO - Root WebApplicationContext: initialization completed in 2816 ms
+05-Jul-2021 08:03:27 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+05-Jul-2021 08:03:27 INFO - HikariPool-1 - Starting...
+05-Jul-2021 08:03:28 INFO - HikariPool-1 - Start completed.
+05-Jul-2021 08:03:28 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 08:03:28 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+05-Jul-2021 08:03:28 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+05-Jul-2021 08:03:29 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 08:03:29 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 08:03:29 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 08:03:29 INFO - LiveReload server is running on port 35729
+05-Jul-2021 08:03:30 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 08:03:30 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 08:03:30 INFO - Context refreshed
+05-Jul-2021 08:03:30 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 08:03:30 INFO - Scanning for api listing references
+05-Jul-2021 08:03:30 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 08:03:30 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 08:03:30 INFO - Triggering deferred initialization of Spring Data repositories…
+05-Jul-2021 08:03:31 INFO - Spring Data repositories initialized!
+05-Jul-2021 08:03:31 INFO - Started EmployeeAndTrainingManagementSystemApplication in 7.471 seconds (JVM running for 9.015)
+05-Jul-2021 08:04:54 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 08:04:54 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 08:04:54 INFO - Completed initialization in 38 ms
+05-Jul-2021 08:05:06 ERROR - Request method 'POST' not supported
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:213) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:422) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:110) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:59) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:395) ~[spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+05-Jul-2021 08:05:06 WARN - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+05-Jul-2021 08:36:25 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 08:36:25 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+05-Jul-2021 08:36:25 INFO - HikariPool-1 - Shutdown initiated...
+05-Jul-2021 08:36:25 INFO - HikariPool-1 - Shutdown completed.
+05-Jul-2021 08:36:25 INFO - Starting EmployeeAndTrainingManagementSystemApplication on LAPTOP-CPJ6JBEM with PID 13208 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 08:36:25 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 08:36:26 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+05-Jul-2021 08:36:26 INFO - Finished Spring Data repository scanning in 16ms. Found 2 JPA repository interfaces.
+05-Jul-2021 08:36:26 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 08:36:26 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 08:36:26 INFO - Starting service [Tomcat]
+05-Jul-2021 08:36:26 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+05-Jul-2021 08:36:26 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 08:36:26 INFO - Root WebApplicationContext: initialization completed in 690 ms
+05-Jul-2021 08:36:26 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+05-Jul-2021 08:36:26 INFO - HikariPool-2 - Starting...
+05-Jul-2021 08:36:26 INFO - HikariPool-2 - Start completed.
+05-Jul-2021 08:36:26 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 08:36:26 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 08:36:26 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 08:36:26 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 08:36:26 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 08:36:26 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 08:36:27 INFO - LiveReload server is running on port 35729
+05-Jul-2021 08:36:27 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 08:36:27 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 08:36:27 INFO - Context refreshed
+05-Jul-2021 08:36:27 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 08:36:27 INFO - Scanning for api listing references
+05-Jul-2021 08:36:27 INFO - Triggering deferred initialization of Spring Data repositories…
+05-Jul-2021 08:36:27 INFO - Spring Data repositories initialized!
+05-Jul-2021 08:36:27 INFO - Started EmployeeAndTrainingManagementSystemApplication in 1.477 seconds (JVM running for 1984.822)
+05-Jul-2021 08:36:27 INFO - Condition evaluation unchanged
+05-Jul-2021 08:36:31 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 08:36:31 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 08:36:31 INFO - Completed initialization in 4 ms
+05-Jul-2021 08:37:29 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 08:37:29 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+05-Jul-2021 08:37:29 INFO - HikariPool-2 - Shutdown initiated...
+05-Jul-2021 08:37:29 INFO - HikariPool-2 - Shutdown completed.
+05-Jul-2021 08:37:29 INFO - Starting EmployeeAndTrainingManagementSystemApplication on LAPTOP-CPJ6JBEM with PID 13208 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 08:37:29 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 08:37:29 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+05-Jul-2021 08:37:29 INFO - Finished Spring Data repository scanning in 16ms. Found 2 JPA repository interfaces.
+05-Jul-2021 08:37:30 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 08:37:30 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 08:37:30 INFO - Starting service [Tomcat]
+05-Jul-2021 08:37:30 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+05-Jul-2021 08:37:30 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 08:37:30 INFO - Root WebApplicationContext: initialization completed in 628 ms
+05-Jul-2021 08:37:30 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+05-Jul-2021 08:37:30 INFO - HikariPool-3 - Starting...
+05-Jul-2021 08:37:30 INFO - HikariPool-3 - Start completed.
+05-Jul-2021 08:37:30 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 08:37:30 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 08:37:30 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 08:37:30 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 08:37:30 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 08:37:30 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 08:37:30 INFO - LiveReload server is running on port 35729
+05-Jul-2021 08:37:30 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 08:37:30 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 08:37:30 INFO - Context refreshed
+05-Jul-2021 08:37:30 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 08:37:30 INFO - Scanning for api listing references
+05-Jul-2021 08:37:30 INFO - Triggering deferred initialization of Spring Data repositories…
+05-Jul-2021 08:37:30 INFO - Spring Data repositories initialized!
+05-Jul-2021 08:37:30 INFO - Started EmployeeAndTrainingManagementSystemApplication in 1.252 seconds (JVM running for 2048.091)
+05-Jul-2021 08:37:30 INFO - Condition evaluation unchanged
+05-Jul-2021 08:37:39 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 08:37:39 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 08:37:39 INFO - Completed initialization in 5 ms
+05-Jul-2021 08:38:20 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 08:38:20 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+05-Jul-2021 08:38:20 INFO - HikariPool-3 - Shutdown initiated...
+05-Jul-2021 08:38:20 INFO - HikariPool-3 - Shutdown completed.
+05-Jul-2021 08:38:20 INFO - Starting EmployeeAndTrainingManagementSystemApplication on LAPTOP-CPJ6JBEM with PID 13208 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 08:38:20 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 08:38:20 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+05-Jul-2021 08:38:20 INFO - Finished Spring Data repository scanning in 20ms. Found 2 JPA repository interfaces.
+05-Jul-2021 08:38:21 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 08:38:21 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 08:38:21 INFO - Starting service [Tomcat]
+05-Jul-2021 08:38:21 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+05-Jul-2021 08:38:21 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 08:38:21 INFO - Root WebApplicationContext: initialization completed in 549 ms
+05-Jul-2021 08:38:21 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+05-Jul-2021 08:38:21 INFO - HikariPool-4 - Starting...
+05-Jul-2021 08:38:21 INFO - HikariPool-4 - Start completed.
+05-Jul-2021 08:38:21 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 08:38:21 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 08:38:21 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 08:38:21 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 08:38:21 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 08:38:21 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 08:38:21 INFO - LiveReload server is running on port 35729
+05-Jul-2021 08:38:21 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 08:38:21 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 08:38:21 INFO - Context refreshed
+05-Jul-2021 08:38:21 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 08:38:21 INFO - Scanning for api listing references
+05-Jul-2021 08:38:21 INFO - Triggering deferred initialization of Spring Data repositories…
+05-Jul-2021 08:38:21 INFO - Spring Data repositories initialized!
+05-Jul-2021 08:38:21 INFO - Started EmployeeAndTrainingManagementSystemApplication in 1.097 seconds (JVM running for 2099.118)
+05-Jul-2021 08:38:21 INFO - Condition evaluation unchanged
+05-Jul-2021 08:38:26 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 08:38:26 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 08:38:26 INFO - Completed initialization in 2 ms
+05-Jul-2021 10:03:21 INFO - Starting EmployeeAndTrainingManagementSystemApplication on LAPTOP-CPJ6JBEM with PID 2212 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 10:03:21 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 10:03:21 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+05-Jul-2021 10:03:21 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+05-Jul-2021 10:03:23 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+05-Jul-2021 10:03:24 INFO - Finished Spring Data repository scanning in 181ms. Found 2 JPA repository interfaces.
+05-Jul-2021 10:03:26 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 10:03:26 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 10:03:26 INFO - Starting service [Tomcat]
+05-Jul-2021 10:03:26 INFO - Starting Servlet engine: [Apache Tomcat/9.0.36]
+05-Jul-2021 10:03:26 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 10:03:26 INFO - Root WebApplicationContext: initialization completed in 4633 ms
+05-Jul-2021 10:03:27 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+05-Jul-2021 10:03:27 INFO - HikariPool-1 - Starting...
+05-Jul-2021 10:03:28 INFO - HikariPool-1 - Start completed.
+05-Jul-2021 10:03:28 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 10:03:28 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+05-Jul-2021 10:03:29 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+05-Jul-2021 10:03:29 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 10:03:29 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 10:03:30 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 10:03:30 INFO - 
+
+Using generated security password: ba4e01cb-83e8-40b2-bf4e-d1012fe0ffd9
+
+05-Jul-2021 10:03:30 INFO - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d2ee0c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@46766432, org.springframework.security.web.header.HeaderWriterFilter@2bad347a, org.springframework.security.web.csrf.CsrfFilter@309a28cf, org.springframework.security.web.authentication.logout.LogoutFilter@2e19636, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59f05c82, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5d6a1c7e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@13db06ce, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f79e6f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bf7a8af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20479ae4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cf6c75c, org.springframework.security.web.session.SessionManagementFilter@58a78a12, org.springframework.security.web.access.ExceptionTranslationFilter@4116c090, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b67df4e]
+05-Jul-2021 10:03:30 INFO - LiveReload server is running on port 35729
+05-Jul-2021 10:03:31 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 10:03:31 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 10:03:31 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 10:03:31 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 10:03:31 INFO - Context refreshed
+05-Jul-2021 10:03:31 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 10:03:31 INFO - Scanning for api listing references
+05-Jul-2021 10:03:31 INFO - Triggering deferred initialization of Spring Data repositories…
+05-Jul-2021 10:03:32 INFO - Spring Data repositories initialized!
+05-Jul-2021 10:03:32 INFO - Started EmployeeAndTrainingManagementSystemApplication in 11.961 seconds (JVM running for 14.516)
+05-Jul-2021 10:03:48 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 10:03:48 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 10:03:48 INFO - Completed initialization in 21 ms
+05-Jul-2021 10:03:49 WARN - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [156] milliseconds.
+05-Jul-2021 15:03:14 INFO - HV000001: Hibernate Validator 6.2.0.Final
+05-Jul-2021 15:03:14 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 24396 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:03:14 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:03:14 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+05-Jul-2021 15:03:14 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+05-Jul-2021 15:03:16 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:03:16 INFO - Finished Spring Data repository scanning in 96 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:03:18 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:03:18 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:03:18 INFO - Starting service [Tomcat]
+05-Jul-2021 15:03:18 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:03:18 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:03:18 INFO - Root WebApplicationContext: initialization completed in 4383 ms
+05-Jul-2021 15:03:19 INFO - HikariPool-1 - Starting...
+05-Jul-2021 15:03:20 INFO - HikariPool-1 - Start completed.
+05-Jul-2021 15:03:20 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:03:20 INFO - HHH000412: Hibernate ORM core version 5.4.32.Final
+05-Jul-2021 15:03:20 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+05-Jul-2021 15:03:20 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:03:22 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:03:22 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:03:23 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:03:23 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:03:23 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:03:23 INFO - 
+
+Using generated security password: d8bba917-fba2-43d5-96ce-f9b457018824
+
+05-Jul-2021 15:03:24 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@309adfc8, org.springframework.security.web.context.SecurityContextPersistenceFilter@4849e80f, org.springframework.security.web.header.HeaderWriterFilter@6e3d74d0, org.springframework.web.filter.CorsFilter@1261e1ff, org.springframework.security.web.csrf.CsrfFilter@e91b6aa, org.springframework.security.web.authentication.logout.LogoutFilter@238557fa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@649ef65e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4a032caf, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@27677307, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@13c71521, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f4eac23, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51d56e71, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c2204d7, org.springframework.security.web.session.SessionManagementFilter@6f9844ea, org.springframework.security.web.access.ExceptionTranslationFilter@55df5343, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d40344b]
+05-Jul-2021 15:03:24 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:03:24 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:03:25 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:03:25 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:03:25 INFO - Context refreshed
+05-Jul-2021 15:03:25 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:03:25 INFO - Scanning for api listing references
+05-Jul-2021 15:03:25 INFO - Started EmployeeAndTrainingManagementSystemApplication in 12.299 seconds (JVM running for 14.055)
+05-Jul-2021 15:03:51 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:03:51 INFO - HikariPool-1 - Shutdown initiated...
+05-Jul-2021 15:03:51 INFO - HikariPool-1 - Shutdown completed.
+05-Jul-2021 15:03:51 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 24396 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:03:51 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:03:51 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:03:52 INFO - Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:03:52 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:03:52 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:03:52 INFO - Starting service [Tomcat]
+05-Jul-2021 15:03:52 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:03:52 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:03:52 INFO - Root WebApplicationContext: initialization completed in 1028 ms
+05-Jul-2021 15:03:52 INFO - HikariPool-2 - Starting...
+05-Jul-2021 15:03:52 INFO - HikariPool-2 - Start completed.
+05-Jul-2021 15:03:52 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:03:52 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:03:52 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:03:52 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:03:53 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:03:53 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:03:53 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:03:53 INFO - 
+
+Using generated security password: ee9b1482-0367-491c-a385-cd009d50cb92
+
+05-Jul-2021 15:03:53 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@115fc77, org.springframework.security.web.context.SecurityContextPersistenceFilter@66ccf2c9, org.springframework.security.web.header.HeaderWriterFilter@7289d4a0, org.springframework.web.filter.CorsFilter@29819386, org.springframework.security.web.csrf.CsrfFilter@3ab41fd2, org.springframework.security.web.authentication.logout.LogoutFilter@2b94848c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4e834031, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@56e1e353, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7dd7cc4f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@756d1766, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b1ec2d7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@370e2bc0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@601c32b4, org.springframework.security.web.session.SessionManagementFilter@7c1c3817, org.springframework.security.web.access.ExceptionTranslationFilter@44253354, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5aac9293]
+05-Jul-2021 15:03:53 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:03:53 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:03:53 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:03:53 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:03:53 INFO - Context refreshed
+05-Jul-2021 15:03:53 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:03:53 INFO - Scanning for api listing references
+05-Jul-2021 15:03:54 INFO - Started EmployeeAndTrainingManagementSystemApplication in 2.819 seconds (JVM running for 42.356)
+05-Jul-2021 15:03:54 INFO - Condition evaluation unchanged
+05-Jul-2021 15:03:57 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:03:57 INFO - HikariPool-2 - Shutdown initiated...
+05-Jul-2021 15:03:57 INFO - HikariPool-2 - Shutdown completed.
+05-Jul-2021 15:03:57 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 24396 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:03:57 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:03:58 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:03:58 INFO - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:03:58 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:03:58 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:03:58 INFO - Starting service [Tomcat]
+05-Jul-2021 15:03:58 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:03:58 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:03:58 INFO - Root WebApplicationContext: initialization completed in 1038 ms
+05-Jul-2021 15:03:58 INFO - HikariPool-3 - Starting...
+05-Jul-2021 15:03:58 INFO - HikariPool-3 - Start completed.
+05-Jul-2021 15:03:58 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:03:58 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:03:58 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:03:58 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:03:59 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:03:59 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:03:59 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:03:59 INFO - 
+
+Using generated security password: 2c1ac09d-0be2-4473-b126-ace6cea320e2
+
+05-Jul-2021 15:03:59 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fcb6fc6, org.springframework.security.web.context.SecurityContextPersistenceFilter@426278be, org.springframework.security.web.header.HeaderWriterFilter@663b46b4, org.springframework.web.filter.CorsFilter@48fed7af, org.springframework.security.web.csrf.CsrfFilter@7e354401, org.springframework.security.web.authentication.logout.LogoutFilter@6e7cd6f8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3abc5c14, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@b164ce8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@107a6e58, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4c1ad5f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c8d3057, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@303fd994, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ad58cf2, org.springframework.security.web.session.SessionManagementFilter@16233337, org.springframework.security.web.access.ExceptionTranslationFilter@30afd1d4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ffb3e81]
+05-Jul-2021 15:03:59 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:03:59 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:04:00 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:04:00 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:04:00 INFO - Context refreshed
+05-Jul-2021 15:04:00 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:04:00 INFO - Scanning for api listing references
+05-Jul-2021 15:04:00 INFO - Started EmployeeAndTrainingManagementSystemApplication in 2.833 seconds (JVM running for 48.679)
+05-Jul-2021 15:04:00 INFO - Condition evaluation unchanged
+05-Jul-2021 15:04:06 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:04:06 INFO - HikariPool-3 - Shutdown initiated...
+05-Jul-2021 15:04:06 INFO - HikariPool-3 - Shutdown completed.
+05-Jul-2021 15:04:06 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 24396 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:04:06 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:04:07 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:04:07 INFO - Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:04:07 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:04:07 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:04:07 INFO - Starting service [Tomcat]
+05-Jul-2021 15:04:07 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:04:07 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:04:07 INFO - Root WebApplicationContext: initialization completed in 860 ms
+05-Jul-2021 15:04:07 INFO - HikariPool-4 - Starting...
+05-Jul-2021 15:04:07 INFO - HikariPool-4 - Start completed.
+05-Jul-2021 15:04:07 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:04:07 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:04:08 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:04:08 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:04:08 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:04:08 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:04:08 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:04:08 INFO - 
+
+Using generated security password: 801fe0e5-bd39-4ceb-a474-f2ff5f7a3128
+
+05-Jul-2021 15:04:08 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f0d2a39, org.springframework.security.web.context.SecurityContextPersistenceFilter@25a2b200, org.springframework.security.web.header.HeaderWriterFilter@732848cc, org.springframework.web.filter.CorsFilter@51f2739f, org.springframework.security.web.csrf.CsrfFilter@2dd9d864, org.springframework.security.web.authentication.logout.LogoutFilter@5271a3ca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3097064a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5569c03c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@595f9abd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@38a8b9b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f2906ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ef649cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24c7c504, org.springframework.security.web.session.SessionManagementFilter@46db5847, org.springframework.security.web.access.ExceptionTranslationFilter@2aa8092b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@519d0794]
+05-Jul-2021 15:04:08 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:04:08 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:04:08 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:04:08 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:04:08 INFO - Context refreshed
+05-Jul-2021 15:04:08 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:04:08 INFO - Scanning for api listing references
+05-Jul-2021 15:04:08 INFO - Started EmployeeAndTrainingManagementSystemApplication in 2.053 seconds (JVM running for 57.252)
+05-Jul-2021 15:04:08 INFO - Condition evaluation unchanged
+05-Jul-2021 15:04:16 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:04:16 INFO - HikariPool-4 - Shutdown initiated...
+05-Jul-2021 15:04:16 INFO - HikariPool-4 - Shutdown completed.
+05-Jul-2021 15:04:16 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 24396 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:04:16 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:04:17 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:04:17 INFO - Finished Spring Data repository scanning in 112 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:04:18 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:04:18 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:04:18 INFO - Starting service [Tomcat]
+05-Jul-2021 15:04:18 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:04:18 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:04:18 INFO - Root WebApplicationContext: initialization completed in 1854 ms
+05-Jul-2021 15:04:18 INFO - HikariPool-5 - Starting...
+05-Jul-2021 15:04:18 INFO - HikariPool-5 - Start completed.
+05-Jul-2021 15:04:18 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:04:18 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:04:18 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:04:18 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:04:19 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:04:19 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:04:19 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:04:19 INFO - 
+
+Using generated security password: 6e4454af-e033-419e-8bcb-763165276fe6
+
+05-Jul-2021 15:04:19 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d268440, org.springframework.security.web.context.SecurityContextPersistenceFilter@41710a46, org.springframework.security.web.header.HeaderWriterFilter@42aef6e1, org.springframework.web.filter.CorsFilter@2b0c3fcf, org.springframework.security.web.csrf.CsrfFilter@b97fb1f, org.springframework.security.web.authentication.logout.LogoutFilter@75af0712, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@703ce0f4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@42323e8d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3c20511a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5e87152e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e833527, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b2fc7e8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ae80dd5, org.springframework.security.web.session.SessionManagementFilter@750a48fb, org.springframework.security.web.access.ExceptionTranslationFilter@1f0e0265, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c90bc8c]
+05-Jul-2021 15:04:19 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:04:19 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:04:19 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:04:19 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:04:19 INFO - Context refreshed
+05-Jul-2021 15:04:19 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:04:19 INFO - Scanning for api listing references
+05-Jul-2021 15:04:19 INFO - Started EmployeeAndTrainingManagementSystemApplication in 3.035 seconds (JVM running for 68.09)
+05-Jul-2021 15:04:19 INFO - Condition evaluation unchanged
+05-Jul-2021 15:04:31 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:04:31 INFO - HikariPool-5 - Shutdown initiated...
+05-Jul-2021 15:04:31 INFO - HikariPool-5 - Shutdown completed.
+05-Jul-2021 15:04:31 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 24396 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:04:31 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:04:32 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:04:32 INFO - Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:04:32 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:04:32 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:04:32 INFO - Starting service [Tomcat]
+05-Jul-2021 15:04:32 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:04:32 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:04:32 INFO - Root WebApplicationContext: initialization completed in 738 ms
+05-Jul-2021 15:04:32 INFO - HikariPool-6 - Starting...
+05-Jul-2021 15:04:32 INFO - HikariPool-6 - Start completed.
+05-Jul-2021 15:04:32 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:04:32 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:04:32 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:04:32 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:04:32 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:04:32 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:04:32 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:04:32 INFO - 
+
+Using generated security password: 111443c6-0528-4756-9104-3be05fdad85a
+
+05-Jul-2021 15:04:33 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fab3173, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e13cc18, org.springframework.security.web.header.HeaderWriterFilter@40ba2b98, org.springframework.web.filter.CorsFilter@6ab1747a, org.springframework.security.web.csrf.CsrfFilter@bbb1d92, org.springframework.security.web.authentication.logout.LogoutFilter@3cb9b1f4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@691c59fb, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@75bbf65e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@61693b56, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@40aaab86, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58122b26, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49653d57, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@748a4a66, org.springframework.security.web.session.SessionManagementFilter@7d9719b5, org.springframework.security.web.access.ExceptionTranslationFilter@141c4d79, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1714ae44]
+05-Jul-2021 15:04:33 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:04:33 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:04:33 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:04:33 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:04:33 INFO - Context refreshed
+05-Jul-2021 15:04:33 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:04:33 INFO - Scanning for api listing references
+05-Jul-2021 15:04:33 INFO - Started EmployeeAndTrainingManagementSystemApplication in 1.794 seconds (JVM running for 81.608)
+05-Jul-2021 15:04:33 INFO - Condition evaluation unchanged
+05-Jul-2021 15:35:58 INFO - HV000001: Hibernate Validator 6.2.0.Final
+05-Jul-2021 15:35:58 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 132 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:35:58 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:35:58 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+05-Jul-2021 15:35:58 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+05-Jul-2021 15:36:01 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:36:01 INFO - Finished Spring Data repository scanning in 128 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:36:04 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:36:04 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:36:04 INFO - Starting service [Tomcat]
+05-Jul-2021 15:36:04 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:36:04 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:36:04 INFO - Root WebApplicationContext: initialization completed in 6001 ms
+05-Jul-2021 15:36:05 INFO - HikariPool-1 - Starting...
+05-Jul-2021 15:36:06 INFO - HikariPool-1 - Start completed.
+05-Jul-2021 15:36:06 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:36:07 INFO - HHH000412: Hibernate ORM core version 5.4.32.Final
+05-Jul-2021 15:36:07 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+05-Jul-2021 15:36:07 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:36:09 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:36:09 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:36:11 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:36:11 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:36:11 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:36:12 INFO - 
+
+Using generated security password: 359d1a0d-ecbf-433f-b3dc-b61777b6ce73
+
+05-Jul-2021 15:36:13 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e721a2a, org.springframework.security.web.context.SecurityContextPersistenceFilter@518df720, org.springframework.security.web.header.HeaderWriterFilter@71a6cdd5, org.springframework.web.filter.CorsFilter@30f7c32e, org.springframework.security.web.csrf.CsrfFilter@4a605d3c, org.springframework.security.web.authentication.logout.LogoutFilter@8ad5407, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f23f386, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4403db35, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2f5ed94f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@15e5e195, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40df481b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f5bcb25, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@150d7c78, org.springframework.security.web.session.SessionManagementFilter@326ecc9c, org.springframework.security.web.access.ExceptionTranslationFilter@5c5147f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@336a613e]
+05-Jul-2021 15:36:13 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:36:13 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:36:14 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:36:14 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:36:14 INFO - Context refreshed
+05-Jul-2021 15:36:14 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:36:14 INFO - Scanning for api listing references
+05-Jul-2021 15:36:15 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 15:36:15 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 15:36:15 INFO - Completed initialization in 3 ms
+05-Jul-2021 15:36:15 INFO - Started EmployeeAndTrainingManagementSystemApplication in 18.153 seconds (JVM running for 19.947)
+05-Jul-2021 15:36:15 WARN - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [159] milliseconds.
+05-Jul-2021 15:38:08 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:38:08 INFO - HikariPool-1 - Shutdown initiated...
+05-Jul-2021 15:38:08 INFO - HikariPool-1 - Shutdown completed.
+05-Jul-2021 15:38:09 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 132 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:38:09 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:38:10 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:38:10 INFO - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:38:10 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:38:10 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:38:10 INFO - Starting service [Tomcat]
+05-Jul-2021 15:38:10 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:38:10 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:38:10 INFO - Root WebApplicationContext: initialization completed in 1760 ms
+05-Jul-2021 15:38:11 INFO - HikariPool-2 - Starting...
+05-Jul-2021 15:38:11 INFO - HikariPool-2 - Start completed.
+05-Jul-2021 15:38:11 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:38:11 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:38:11 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:38:11 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:38:12 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:38:12 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:38:12 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:38:12 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:38:13 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:38:13 INFO - 
+
+Using generated security password: 7dea897a-647e-4335-a275-cc9aac7fd899
+
+05-Jul-2021 15:38:13 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61169c45, org.springframework.security.web.context.SecurityContextPersistenceFilter@71b1e01f, org.springframework.security.web.header.HeaderWriterFilter@69cc956e, org.springframework.web.filter.CorsFilter@49aa5538, org.springframework.security.web.csrf.CsrfFilter@70524015, org.springframework.security.web.authentication.logout.LogoutFilter@6657053d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1bae6cc4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@9fc3007, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@218ac885, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3b06727a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fec051d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5509745d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2997fb6c, org.springframework.security.web.session.SessionManagementFilter@13815892, org.springframework.security.web.access.ExceptionTranslationFilter@783bd62a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5051536c]
+05-Jul-2021 15:38:13 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:38:13 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:38:13 INFO - Context refreshed
+05-Jul-2021 15:38:13 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:38:13 INFO - Scanning for api listing references
+05-Jul-2021 15:38:13 INFO - Started EmployeeAndTrainingManagementSystemApplication in 4.425 seconds (JVM running for 137.933)
+05-Jul-2021 15:38:13 INFO - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+05-Jul-2021 15:38:17 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 15:38:17 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 15:38:17 INFO - Completed initialization in 4 ms
+05-Jul-2021 15:41:40 INFO - HV000001: Hibernate Validator 6.2.0.Final
+05-Jul-2021 15:41:40 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 16888 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:41:40 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:41:40 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+05-Jul-2021 15:41:40 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+05-Jul-2021 15:41:42 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:41:42 INFO - Finished Spring Data repository scanning in 97 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:41:44 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:41:44 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:41:44 INFO - Starting service [Tomcat]
+05-Jul-2021 15:41:44 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:41:45 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:41:45 INFO - Root WebApplicationContext: initialization completed in 4248 ms
+05-Jul-2021 15:41:45 INFO - HikariPool-1 - Starting...
+05-Jul-2021 15:41:46 INFO - HikariPool-1 - Start completed.
+05-Jul-2021 15:41:46 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:41:46 INFO - HHH000412: Hibernate ORM core version 5.4.32.Final
+05-Jul-2021 15:41:46 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+05-Jul-2021 15:41:47 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:41:48 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:41:48 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:41:49 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:41:50 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:41:50 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:41:50 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:41:51 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:41:51 INFO - 
+
+Using generated security password: eb4ab52c-a08f-49dd-9e1e-e7da0df8e1b2
+
+05-Jul-2021 15:41:51 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@beffc84, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c6f6135, org.springframework.security.web.header.HeaderWriterFilter@23ad8eb, org.springframework.web.filter.CorsFilter@7bd60cc6, org.springframework.security.web.csrf.CsrfFilter@3481acea, org.springframework.security.web.authentication.logout.LogoutFilter@41f965cb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@49be6809, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3627bbe4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@67710bab, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4bb6b8b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f1dbfa8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@708a2a8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@197c4ccd, org.springframework.security.web.session.SessionManagementFilter@5f5fb4da, org.springframework.security.web.access.ExceptionTranslationFilter@2687f606, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d60ff9e]
+05-Jul-2021 15:41:51 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:41:51 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:41:51 INFO - Context refreshed
+05-Jul-2021 15:41:51 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:41:51 INFO - Scanning for api listing references
+05-Jul-2021 15:41:52 INFO - Started EmployeeAndTrainingManagementSystemApplication in 12.028 seconds (JVM running for 13.514)
+05-Jul-2021 15:41:58 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 15:41:58 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 15:41:58 INFO - Completed initialization in 1 ms
+05-Jul-2021 15:41:58 WARN - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [104] milliseconds.
+05-Jul-2021 15:54:33 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:54:33 INFO - HikariPool-1 - Shutdown initiated...
+05-Jul-2021 15:54:33 INFO - HikariPool-1 - Shutdown completed.
+05-Jul-2021 15:54:33 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 16888 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:54:33 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:54:34 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:54:34 INFO - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:54:34 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:54:34 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:54:34 INFO - Starting service [Tomcat]
+05-Jul-2021 15:54:34 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:54:34 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:54:34 INFO - Root WebApplicationContext: initialization completed in 1391 ms
+05-Jul-2021 15:54:34 INFO - HikariPool-2 - Starting...
+05-Jul-2021 15:54:34 INFO - HikariPool-2 - Start completed.
+05-Jul-2021 15:54:34 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:54:34 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:54:34 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:54:34 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:54:35 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:54:35 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:54:35 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:54:35 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:54:36 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:54:36 INFO - 
+
+Using generated security password: 7c01fd88-f94a-413f-990c-3a5d47618fc0
+
+05-Jul-2021 15:54:36 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3904db0b, org.springframework.security.web.context.SecurityContextPersistenceFilter@95cd5f5, org.springframework.security.web.header.HeaderWriterFilter@d384505, org.springframework.web.filter.CorsFilter@34732ff5, org.springframework.security.web.csrf.CsrfFilter@6f091603, org.springframework.security.web.authentication.logout.LogoutFilter@2b460c7e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3ed1441, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@11a5b941, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5f576a26, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@696ec20a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e1489ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71e56f14, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40b69d54, org.springframework.security.web.session.SessionManagementFilter@2e427730, org.springframework.security.web.access.ExceptionTranslationFilter@6a685cb2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21ce2e92]
+05-Jul-2021 15:54:36 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:54:36 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:54:36 INFO - Context refreshed
+05-Jul-2021 15:54:36 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:54:36 INFO - Scanning for api listing references
+05-Jul-2021 15:54:36 INFO - Started EmployeeAndTrainingManagementSystemApplication in 3.208 seconds (JVM running for 777.769)
+05-Jul-2021 15:54:36 INFO - Condition evaluation unchanged
+05-Jul-2021 15:54:37 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:54:37 INFO - HikariPool-2 - Shutdown initiated...
+05-Jul-2021 15:54:37 INFO - HikariPool-2 - Shutdown completed.
+05-Jul-2021 15:54:37 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 16888 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:54:37 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:54:38 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:54:38 INFO - Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:54:38 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:54:38 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:54:38 INFO - Starting service [Tomcat]
+05-Jul-2021 15:54:38 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:54:38 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:54:38 INFO - Root WebApplicationContext: initialization completed in 862 ms
+05-Jul-2021 15:54:38 INFO - HikariPool-3 - Starting...
+05-Jul-2021 15:54:38 INFO - HikariPool-3 - Start completed.
+05-Jul-2021 15:54:38 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:54:38 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:54:39 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:54:39 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:54:39 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:54:39 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:54:39 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:54:39 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:54:39 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:54:39 INFO - 
+
+Using generated security password: f61198c6-860a-412c-b60e-ad0aee187e6d
+
+05-Jul-2021 15:54:39 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fe2d41a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3dd79812, org.springframework.security.web.header.HeaderWriterFilter@511c5c6a, org.springframework.web.filter.CorsFilter@57652a0d, org.springframework.security.web.csrf.CsrfFilter@7fc2ba11, org.springframework.security.web.authentication.logout.LogoutFilter@75ade0b3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1f2bca9c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@79c350ea, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@165b6557, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@61b7ac6b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36874ca0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23669ad3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a535703, org.springframework.security.web.session.SessionManagementFilter@57afa2c4, org.springframework.security.web.access.ExceptionTranslationFilter@5bdf9d0e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46571f98]
+05-Jul-2021 15:54:40 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:54:40 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:54:40 INFO - Context refreshed
+05-Jul-2021 15:54:40 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:54:40 INFO - Scanning for api listing references
+05-Jul-2021 15:54:40 INFO - Started EmployeeAndTrainingManagementSystemApplication in 2.252 seconds (JVM running for 781.502)
+05-Jul-2021 15:54:40 INFO - Condition evaluation unchanged
+05-Jul-2021 15:54:41 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 15:54:41 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 15:54:41 INFO - Completed initialization in 1 ms
+05-Jul-2021 15:57:45 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:57:45 INFO - HikariPool-3 - Shutdown initiated...
+05-Jul-2021 15:57:45 INFO - HikariPool-3 - Shutdown completed.
+05-Jul-2021 15:57:45 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 16888 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 15:57:45 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 15:57:45 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 15:57:45 INFO - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 15:57:45 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 15:57:45 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:57:45 INFO - Starting service [Tomcat]
+05-Jul-2021 15:57:45 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 15:57:45 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 15:57:45 INFO - Root WebApplicationContext: initialization completed in 502 ms
+05-Jul-2021 15:57:46 INFO - HikariPool-4 - Starting...
+05-Jul-2021 15:57:46 INFO - HikariPool-4 - Start completed.
+05-Jul-2021 15:57:46 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 15:57:46 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 15:57:46 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 15:57:46 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:57:46 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 15:57:46 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 15:57:46 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 15:57:46 INFO - LiveReload server is running on port 35729
+05-Jul-2021 15:57:46 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 15:57:46 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c0a0ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@4cb8b294, org.springframework.security.web.header.HeaderWriterFilter@7a340034, org.springframework.web.filter.CorsFilter@416e2bc0, org.springframework.security.web.csrf.CsrfFilter@fa0e264, org.springframework.security.web.authentication.logout.LogoutFilter@76b91ddf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@32d915e2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5b0fa30b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3b62400a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7703d5fd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a42fb38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d5a3ead, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52a7c6a6, org.springframework.security.web.session.SessionManagementFilter@4483dba2, org.springframework.security.web.access.ExceptionTranslationFilter@38f2c79b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b2d03a9]
+05-Jul-2021 15:57:46 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 15:57:46 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 15:57:46 INFO - Context refreshed
+05-Jul-2021 15:57:46 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 15:57:46 INFO - Scanning for api listing references
+05-Jul-2021 15:57:46 INFO - Started EmployeeAndTrainingManagementSystemApplication in 1.384 seconds (JVM running for 968.16)
+05-Jul-2021 15:57:46 INFO - Condition evaluation unchanged
+05-Jul-2021 15:57:59 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 15:57:59 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 15:57:59 INFO - Completed initialization in 3 ms
+05-Jul-2021 15:58:57 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 15:58:57 INFO - HikariPool-4 - Shutdown initiated...
+05-Jul-2021 15:58:57 INFO - HikariPool-4 - Shutdown completed.
+05-Jul-2021 16:00:08 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 16888 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 16:00:08 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 16:00:08 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 16:00:08 INFO - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 16:00:08 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 16:00:08 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 16:00:08 INFO - Starting service [Tomcat]
+05-Jul-2021 16:00:08 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 16:00:08 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 16:00:08 INFO - Root WebApplicationContext: initialization completed in 508 ms
+05-Jul-2021 16:00:08 INFO - HikariPool-5 - Starting...
+05-Jul-2021 16:00:08 INFO - HikariPool-5 - Start completed.
+05-Jul-2021 16:00:08 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 16:00:08 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 16:00:08 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 16:00:08 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 16:00:09 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 16:00:09 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 16:00:09 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 16:00:09 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17f370be, org.springframework.security.web.context.SecurityContextPersistenceFilter@69db3d1e, org.springframework.security.web.header.HeaderWriterFilter@3b2d2cec, org.springframework.web.filter.CorsFilter@313c4d55, org.springframework.security.web.csrf.CsrfFilter@7e50286c, org.springframework.security.web.authentication.logout.LogoutFilter@36d2d4c0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5560cef4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6ee8026a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@627822e8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@475087e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79f432d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2bec2b4c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21d49e81, org.springframework.security.web.session.SessionManagementFilter@16b774ec, org.springframework.security.web.access.ExceptionTranslationFilter@1fd1fdda, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@695036cf]
+05-Jul-2021 16:00:09 INFO - LiveReload server is running on port 35729
+05-Jul-2021 16:00:09 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 16:00:09 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 16:00:09 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 16:00:09 INFO - Context refreshed
+05-Jul-2021 16:00:09 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 16:00:09 INFO - Scanning for api listing references
+05-Jul-2021 16:00:09 INFO - Started EmployeeAndTrainingManagementSystemApplication in 1.278 seconds (JVM running for 1110.874)
+05-Jul-2021 16:00:09 INFO - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+05-Jul-2021 16:00:12 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 16:00:12 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 16:00:12 INFO - Completed initialization in 1 ms
+05-Jul-2021 16:00:14 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 16:00:14 INFO - HikariPool-5 - Shutdown initiated...
+05-Jul-2021 16:00:14 INFO - HikariPool-5 - Shutdown completed.
+05-Jul-2021 16:00:15 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 16888 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 16:00:15 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 16:00:15 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 16:00:15 INFO - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 16:00:15 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 16:00:15 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 16:00:15 INFO - Starting service [Tomcat]
+05-Jul-2021 16:00:15 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 16:00:15 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 16:00:15 INFO - Root WebApplicationContext: initialization completed in 503 ms
+05-Jul-2021 16:00:15 INFO - HikariPool-6 - Starting...
+05-Jul-2021 16:00:15 INFO - HikariPool-6 - Start completed.
+05-Jul-2021 16:00:15 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 16:00:15 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 16:00:15 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 16:00:15 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 16:00:15 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 16:00:16 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 16:00:16 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 16:00:16 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b0aada7, org.springframework.security.web.context.SecurityContextPersistenceFilter@50d5cece, org.springframework.security.web.header.HeaderWriterFilter@ab0a6b4, org.springframework.web.filter.CorsFilter@29f184eb, org.springframework.security.web.csrf.CsrfFilter@63370d74, org.springframework.security.web.authentication.logout.LogoutFilter@153596d8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1f6b480a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2440dbd8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6c9fa2c7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@251e9ec6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ed9f3bd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71536fd4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d26f93c, org.springframework.security.web.session.SessionManagementFilter@bd22e6d, org.springframework.security.web.access.ExceptionTranslationFilter@6509656c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e6c04e3]
+05-Jul-2021 16:00:16 INFO - LiveReload server is running on port 35729
+05-Jul-2021 16:00:16 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 16:00:16 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 16:00:16 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 16:00:16 INFO - Context refreshed
+05-Jul-2021 16:00:16 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 16:00:16 INFO - Scanning for api listing references
+05-Jul-2021 16:00:16 INFO - Started EmployeeAndTrainingManagementSystemApplication in 1.267 seconds (JVM running for 1117.663)
+05-Jul-2021 16:00:16 INFO - Condition evaluation unchanged
+05-Jul-2021 16:13:42 INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+05-Jul-2021 16:13:42 INFO - Initializing Servlet 'dispatcherServlet'
+05-Jul-2021 16:13:42 INFO - Completed initialization in 1 ms
+05-Jul-2021 16:54:17 WARN - HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=17m31s436ms747µs).
+05-Jul-2021 17:15:46 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 17:15:46 INFO - HikariPool-6 - Shutdown initiated...
+05-Jul-2021 17:15:46 INFO - HikariPool-6 - Shutdown completed.
+05-Jul-2021 17:15:46 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 16888 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+05-Jul-2021 17:15:46 INFO - No active profile set, falling back to default profiles: default
+05-Jul-2021 17:15:48 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+05-Jul-2021 17:15:48 INFO - Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+05-Jul-2021 17:15:48 INFO - Tomcat initialized with port(s): 8765 (http)
+05-Jul-2021 17:15:48 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 17:15:48 INFO - Starting service [Tomcat]
+05-Jul-2021 17:15:48 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+05-Jul-2021 17:15:48 INFO - Initializing Spring embedded WebApplicationContext
+05-Jul-2021 17:15:48 INFO - Root WebApplicationContext: initialization completed in 1813 ms
+05-Jul-2021 17:15:48 INFO - HikariPool-7 - Starting...
+05-Jul-2021 17:15:48 INFO - HikariPool-7 - Start completed.
+05-Jul-2021 17:15:48 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+05-Jul-2021 17:15:48 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+05-Jul-2021 17:15:49 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+05-Jul-2021 17:15:49 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+05-Jul-2021 17:15:49 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+05-Jul-2021 17:15:49 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+05-Jul-2021 17:15:49 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+05-Jul-2021 17:15:49 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49869a3e, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e03d6bf, org.springframework.security.web.header.HeaderWriterFilter@38ad5bda, org.springframework.web.filter.CorsFilter@7f2ea0ed, org.springframework.security.web.csrf.CsrfFilter@3db39e0c, org.springframework.security.web.authentication.logout.LogoutFilter@9a16b19, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69ba4b9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@573a4f27, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@24cb7ddd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7b748d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fc6306a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d67d5c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1987706a, org.springframework.security.web.session.SessionManagementFilter@7f6164a1, org.springframework.security.web.access.ExceptionTranslationFilter@76b8f98c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@447e7082]
+05-Jul-2021 17:15:49 INFO - LiveReload server is running on port 35729
+05-Jul-2021 17:15:50 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+05-Jul-2021 17:15:50 INFO - Starting ProtocolHandler ["http-nio-8765"]
+05-Jul-2021 17:15:50 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+05-Jul-2021 17:15:50 INFO - Context refreshed
+05-Jul-2021 17:15:50 INFO - Found 1 custom documentation plugin(s)
+05-Jul-2021 17:15:50 INFO - Scanning for api listing references
+05-Jul-2021 17:15:50 INFO - Started EmployeeAndTrainingManagementSystemApplication in 3.429 seconds (JVM running for 5651.653)
+05-Jul-2021 17:15:50 INFO - Condition evaluation unchanged
+07-Jul-2021 08:45:25 INFO - HV000001: Hibernate Validator 6.2.0.Final
+07-Jul-2021 08:45:25 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 2584 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+07-Jul-2021 08:45:25 INFO - No active profile set, falling back to default profiles: default
+07-Jul-2021 08:45:25 INFO - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-Jul-2021 08:45:25 INFO - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-Jul-2021 08:45:29 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-Jul-2021 08:45:29 INFO - Finished Spring Data repository scanning in 104 ms. Found 2 JPA repository interfaces.
+07-Jul-2021 08:45:31 INFO - Tomcat initialized with port(s): 8765 (http)
+07-Jul-2021 08:45:31 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+07-Jul-2021 08:45:31 INFO - Starting service [Tomcat]
+07-Jul-2021 08:45:31 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+07-Jul-2021 08:45:31 INFO - Initializing Spring embedded WebApplicationContext
+07-Jul-2021 08:45:31 INFO - Root WebApplicationContext: initialization completed in 6135 ms
+07-Jul-2021 08:45:32 INFO - HikariPool-1 - Starting...
+07-Jul-2021 08:45:33 INFO - HikariPool-1 - Start completed.
+07-Jul-2021 08:45:33 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-Jul-2021 08:45:33 INFO - HHH000412: Hibernate ORM core version 5.4.32.Final
+07-Jul-2021 08:45:34 INFO - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-Jul-2021 08:45:34 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+07-Jul-2021 08:45:35 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-Jul-2021 08:45:35 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-Jul-2021 08:45:37 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-Jul-2021 08:45:37 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+07-Jul-2021 08:45:37 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+07-Jul-2021 08:45:38 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e84a504, org.springframework.security.web.context.SecurityContextPersistenceFilter@612b10a7, org.springframework.security.web.header.HeaderWriterFilter@44591fdf, org.springframework.web.filter.CorsFilter@453d6fd7, org.springframework.security.web.csrf.CsrfFilter@c18642d, org.springframework.security.web.authentication.logout.LogoutFilter@61ea6599, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@610348f5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5766d30a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@742136f7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@658185e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ddcd544, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69f2a37e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1de60b1f, org.springframework.security.web.session.SessionManagementFilter@b945d, org.springframework.security.web.access.ExceptionTranslationFilter@7eca4597, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@95b63b9]
+07-Jul-2021 08:45:38 INFO - LiveReload server is running on port 35729
+07-Jul-2021 08:45:38 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+07-Jul-2021 08:45:38 INFO - Starting ProtocolHandler ["http-nio-8765"]
+07-Jul-2021 08:45:38 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+07-Jul-2021 08:45:38 INFO - Context refreshed
+07-Jul-2021 08:45:39 INFO - Found 1 custom documentation plugin(s)
+07-Jul-2021 08:45:39 INFO - Scanning for api listing references
+07-Jul-2021 08:45:39 INFO - Started EmployeeAndTrainingManagementSystemApplication in 14.817 seconds (JVM running for 17.506)
+07-Jul-2021 08:55:30 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-Jul-2021 08:55:30 INFO - HikariPool-1 - Shutdown initiated...
+07-Jul-2021 08:55:30 INFO - HikariPool-1 - Shutdown completed.
+07-Jul-2021 08:55:31 INFO - Starting EmployeeAndTrainingManagementSystemApplication using Java 15.0.2 on LAPTOP-CPJ6JBEM with PID 2584 (C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System\target\classes started by shubham in C:\Users\shubham\Desktop\InfyCertification\Employee and Training Management System\Employee-and-Training-Management-System)
+07-Jul-2021 08:55:31 INFO - No active profile set, falling back to default profiles: default
+07-Jul-2021 08:55:31 INFO - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-Jul-2021 08:55:31 INFO - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+07-Jul-2021 08:55:32 INFO - Tomcat initialized with port(s): 8765 (http)
+07-Jul-2021 08:55:32 INFO - Initializing ProtocolHandler ["http-nio-8765"]
+07-Jul-2021 08:55:32 INFO - Starting service [Tomcat]
+07-Jul-2021 08:55:32 INFO - Starting Servlet engine: [Apache Tomcat/9.0.48]
+07-Jul-2021 08:55:32 INFO - Initializing Spring embedded WebApplicationContext
+07-Jul-2021 08:55:32 INFO - Root WebApplicationContext: initialization completed in 1112 ms
+07-Jul-2021 08:55:32 INFO - HikariPool-2 - Starting...
+07-Jul-2021 08:55:32 INFO - HikariPool-2 - Start completed.
+07-Jul-2021 08:55:32 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-Jul-2021 08:55:32 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+07-Jul-2021 08:55:32 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-Jul-2021 08:55:32 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-Jul-2021 08:55:32 WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-Jul-2021 08:55:32 INFO - Exposing 1 endpoint(s) beneath base path '/actuator'
+07-Jul-2021 08:55:32 INFO - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+07-Jul-2021 08:55:33 INFO - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66c731e3, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e81e6a9, org.springframework.security.web.header.HeaderWriterFilter@7adada4e, org.springframework.web.filter.CorsFilter@427e11ff, org.springframework.security.web.csrf.CsrfFilter@2fa2c532, org.springframework.security.web.authentication.logout.LogoutFilter@6a345392, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d792836, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4811be70, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@36b2a91e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2dff4fa6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69797fc3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45ddd008, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@61e75211, org.springframework.security.web.session.SessionManagementFilter@7333828, org.springframework.security.web.access.ExceptionTranslationFilter@4ce3698b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51c806ac]
+07-Jul-2021 08:55:33 INFO - LiveReload server is running on port 35729
+07-Jul-2021 08:55:33 WARN - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+07-Jul-2021 08:55:33 INFO - Starting ProtocolHandler ["http-nio-8765"]
+07-Jul-2021 08:55:33 INFO - Tomcat started on port(s): 8765 (http) with context path ''
+07-Jul-2021 08:55:33 INFO - Context refreshed
+07-Jul-2021 08:55:33 INFO - Found 1 custom documentation plugin(s)
+07-Jul-2021 08:55:33 INFO - Scanning for api listing references
+07-Jul-2021 08:55:33 INFO - Started EmployeeAndTrainingManagementSystemApplication in 2.496 seconds (JVM running for 611.596)
+07-Jul-2021 08:55:33 INFO - Condition evaluation unchanged

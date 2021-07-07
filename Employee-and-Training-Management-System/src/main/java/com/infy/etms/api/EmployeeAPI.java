@@ -31,7 +31,7 @@ import com.infy.etms.service.EmployeeServiceImpl;
 @Validated
 public class EmployeeAPI {
 	
-	
+	//http://localhost:8080/employee
 	@Autowired
 	private EmployeeServiceImpl employeeService;
 	
@@ -39,7 +39,7 @@ public class EmployeeAPI {
 	private Environment environment;
 	
 	//done
-	@PostMapping("/addEmployee")
+	@PostMapping(consumes={"application/json","application/xml"})
 	public ResponseEntity<String> addEmployee(@Valid @RequestBody EmployeeDTO employeeDTO) throws EmployeeException
 	{
 		
@@ -51,7 +51,7 @@ public class EmployeeAPI {
 		
 	}
 	//done
-	@GetMapping("/getEmployee/{employeeId}")
+	@GetMapping(value="/{employeeId}", produces={"application/json"})
 	public ResponseEntity<EmployeeDTO> getEmployee(@PathVariable @Min(value=100,message="{employee.min.value}")
 	@Max(value=999,message="{employee.max.value}") Integer employeeId ) throws EmployeeException
 	{
@@ -60,7 +60,7 @@ public class EmployeeAPI {
 		
 	}
 	//done
-	@PutMapping("/updateEmployee/{employeeId}/{courseName}")
+	@PutMapping(value="/{employeeId}/{courseName}", produces={"application/json","application/xml"})
 	public ResponseEntity<String> updateEmployee(@PathVariable Integer employeeId,@PathVariable String courseName ) throws EmployeeException
 	{
 		
@@ -73,7 +73,7 @@ public class EmployeeAPI {
 		
 	}
 	//done
-	@DeleteMapping("/removeEmployee/{employeeId}")
+	@DeleteMapping(value="/{employeeId}", produces={"application/json","application/xml"})
 	public ResponseEntity<String> removeEmployee(@PathVariable Integer employeeId) throws EmployeeException
 	{
 		
@@ -86,7 +86,7 @@ public class EmployeeAPI {
 	
 	//Pagination
 	//We want per page 7 record whose course 
-	@GetMapping("/getAllEmployeeByCourseCode/{courseId}/{pageNo}")
+	@GetMapping(value="/{courseId}/{pageNo}")
 	public ResponseEntity<List<EmployeeDTO>> getAllEmployeeByCourseCode(@PathVariable String courseId,@PathVariable Integer pageNo) throws EmployeeException
 	{
 		
