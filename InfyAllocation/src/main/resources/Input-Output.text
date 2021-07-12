@@ -1,0 +1,153 @@
+
+1.GetMapping
+
+Input: http://localhost:8000/manager/1001
+
+output:
+
+{
+    "managerId": 1001,
+    "managerName": "Dawn",
+    "noOfProjectMentored": 2,
+    "domainName": "Pharmacy",
+    "noOfTeamHandled": 2,
+    "teamId": 160,
+    "courseId": "CSE"
+}
+
+2. GetMapping : ALL
+
+Input:http://localhost:8000/manager
+
+output:
+
+[
+    {
+        "managerId": 1001,
+        "managerName": "Dawn",
+        "noOfProjectMentored": 2,
+        "domainName": "Pharmacy",
+        "noOfTeamHandled": 2,
+        "teamId": 160,
+        "courseId": "CSE"
+    },
+    {
+        "managerId": 1002,
+        "managerName": "Crapsy",
+        "noOfProjectMentored": 1,
+        "domainName": "Finance",
+        "noOfTeamHandled": 1,
+        "teamId": 161,
+        "courseId": "IT"
+    },
+    {
+        "managerId": 1003,
+        "managerName": "Lucy",
+        "noOfProjectMentored": 3,
+        "domainName": "Digital",
+        "noOfTeamHandled": 2,
+        "teamId": 162,
+        "courseId": "ETC"
+    },
+    {
+        "managerId": 1004,
+        "managerName": "Jhon",
+        "noOfProjectMentored": 1,
+        "domainName": "Finance",
+        "noOfTeamHandled": 1,
+        "teamId": 163,
+        "courseId": "LT"
+    },
+    {
+        "managerId": 1005,
+        "managerName": "Carter",
+        "noOfProjectMentored": 2,
+        "domainName": "Digital",
+        "noOfTeamHandled": 1,
+        "teamId": 164,
+        "courseId": "MECH"
+    },
+    {
+        "managerId": 1006,
+        "managerName": "Peter",
+        "noOfProjectMentored": 1,
+        "domainName": "AI",
+        "noOfTeamHandled": 3,
+        "teamId": 165,
+        "courseId": "BT"
+    },
+    {
+        "managerId": 1007,
+        "managerName": "Marry",
+        "noOfProjectMentored": 4,
+        "domainName": "Pharmacy",
+        "noOfTeamHandled": 2,
+        "teamId": 166,
+        "courseId": "BE"
+    },
+    {
+        "managerId": 1008,
+        "managerName": "Jim",
+        "noOfProjectMentored": 2,
+        "domainName": "AI",
+        "noOfTeamHandled": 3,
+        "teamId": 167,
+        "courseId": "CE"
+    },
+    {
+        "managerId": 1009,
+        "managerName": "Dawn",
+        "noOfProjectMentored": 2,
+        "domainName": "Pharmacy",
+        "noOfTeamHandled": 2,
+        "teamId": 160,
+        "courseId": "CSE"
+    },
+    {
+        "managerId": 1010,
+        "managerName": "Dawn",
+        "noOfProjectMentored": 2,
+        "domainName": "Pharmacy",
+        "noOfTeamHandled": 2,
+        "teamId": 160,
+        "courseId": "CSE"
+    }
+]
+
+
+3. PostMapping
+
+Input: http://localhost:8000/manager
+
+{
+    "managerId": 1009,
+    "managerName": "Dawn",
+    "noOfProjectMentored": 2,
+    "domainName": "Pharmacy",
+    "noOfTeamHandled": 2,
+    "teamId": 160,
+    "courseId": "CSE"
+}
+
+output: Manager is added successfully:1009
+
+
+4. PutMapping:
+
+Input:  http://localhost:8000/manager/1001/CT
+
+Ouput:  Manager is updated successfully:1001
+
+
+5. DeleteMapping
+
+Input : http://localhost:8000/manager/1006
+
+output: Manager is deleted successfully:1006
+
+
+
+
+
+
+
