@@ -4,7 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.PropertySource;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.web.client.RestTemplate;
 
 //import springfox.documentation.builders.PathSelectors;
@@ -16,7 +15,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @PropertySource("classpath:ValidationMessage.properties")
 @SpringBootApplication
 @EnableSwagger2
-@EnableWebSecurity
 public class EmployeeAndTrainingManagementSystemApplication {
 
 	public static void main(String[] args) {

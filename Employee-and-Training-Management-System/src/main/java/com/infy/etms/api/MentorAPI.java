@@ -28,11 +28,11 @@ public class MentorAPI {
 //	@Autowired
 //	private Environment environment;
 	
-	@GetMapping("/getMentorAndEmployeeByCourseId/{mentorId}/{pageNo}")
-	public ResponseEntity<List<MentorDTO>> getMentorAndEmployeeByCourseId(@PathVariable Integer mentorId, @PathVariable Integer pageNo) throws EmployeeException
+	@GetMapping("/getMentorAndEmployeeByCourseId/{mentorId}/{courseId}/{pageNo}")
+	public ResponseEntity<List<MentorDTO>> getMentorAndEmployeeByCourseId(@PathVariable Integer mentorId,@PathVariable String courseId, @PathVariable Integer pageNo) throws EmployeeException
 	{
 		
-		return new ResponseEntity<>(mentorService.getMentorAndEmployeeByCourseId(mentorId, pageNo),HttpStatus.OK);
+		return new ResponseEntity<>(mentorService.getMentorAndEmployeeByCourseId(mentorId,courseId,pageNo),HttpStatus.OK);
 		
 	}
 

@@ -8,6 +8,8 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.infy.etms.dto.EmployeeDTO;
@@ -26,10 +28,11 @@ public class MentorServiceImpl implements MentorService {
 	
 
 	@Override
-	public List<MentorDTO> getMentorAndEmployeeByCourseId(Integer mentorId, Integer pageNo) throws EmployeeException {
+	public List<MentorDTO> getMentorAndEmployeeByCourseId(Integer mentorId,String courseId, Integer pageNo) throws EmployeeException {
+		Pageable pageable = PageRequest.of(pageNo, 7);
+		List<Mentor> mentEntlist =mentorRepository.getMentorByMentorIdAndCourseId(mentorId,pageable);
 		
-		List<Mentor> mentEntlist =mentorRepository.getMentorAndEmployeeByCourseId(mentorId,pageNo);
-		
+
 		List<MentorDTO> mentorDTOList = new ArrayList<>();
 		
 		for(Mentor m:mentEntlist)

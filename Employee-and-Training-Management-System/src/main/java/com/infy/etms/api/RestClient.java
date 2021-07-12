@@ -23,7 +23,7 @@ public class RestClient {
 	private static final String GET_USER_BY_ID_API = "http://localhost:8080//{employeeId}";
 	private static final String UPDATE_USER_BY_ID_AND_COURSE_NAME_API = "http://localhost:8080/{employeeId}/{courseName}";
 	private static final String DELETE_USER_BY_ID_API = "http://localhost:8080/{employeeId}";
-	private static final String GET_7_USER_PER_PAGE_API = "http://localhost:8080/{courseId}/{pageNo}}";
+	private static final String GET_7_USER_PER_PAGE_API = "http://localhost:8765/employee/CSE/0";
 	
 	 public static void main (String[] args)
 	 {

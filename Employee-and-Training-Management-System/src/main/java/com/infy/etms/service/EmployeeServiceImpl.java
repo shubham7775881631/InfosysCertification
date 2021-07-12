@@ -32,7 +32,7 @@ public class EmployeeServiceImpl implements EmployeeService
 		
 		Optional<Employee> empOpt = employeeRepository.findById(employeeDTO.getEmployeeId());
 		
-		if(empOpt.isPresent())
+		if(!empOpt.isEmpty())
 		{
 			throw new EmployeeException("Service.EMPLOYEE_ALREADY_EXIST");
 		}
@@ -47,8 +47,9 @@ public class EmployeeServiceImpl implements EmployeeService
 		employee.setScore(employeeDTO.getScore());
 		employee.setHoursSpent(employeeDTO.getHoursSpent());
 		
+		employeeRepository.save(employee);
 
-		return employeeRepository.save(employee).getEmployeeId() ;
+		return employee.getEmployeeId() ;
 			
 		
 	}
@@ -81,22 +82,21 @@ public class EmployeeServiceImpl implements EmployeeService
 		Employee employeeEnt = optEnt.orElseThrow(() -> new EmployeeException("Service.EMPLOYEE_NOT_FOUND"));
 		
 		employeeEnt.setCourseName(courseName);
+		employeeRepository.save(employeeEnt);
 
 		
-		return employeeRepository.save(employeeEnt).getEmployeeId();
+		return employeeEnt.getEmployeeId();
 	}
 
 	@Override
 	public Integer removeEmployee(Integer employeeId) throws EmployeeException {
-		System.out.println("Inside the service");
+		
 		Optional<Employee> optEnt = employeeRepository.findById(employeeId);
 		
 		Employee employeeEnt = optEnt.orElseThrow(() -> new EmployeeException("Service.EMPLOYEE_NOT_FOUND"));
 		
 		employeeRepository.delete(employeeEnt);
-		
-		
-	
+
 		return employeeId;
 	}
 

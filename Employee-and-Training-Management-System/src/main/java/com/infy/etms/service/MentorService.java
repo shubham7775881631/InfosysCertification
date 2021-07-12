@@ -8,6 +8,6 @@ import com.infy.etms.exception.EmployeeException;
 public interface MentorService {
 	
 	
-	public List<MentorDTO> getMentorAndEmployeeByCourseId(Integer mentorId, Integer pageNo) throws EmployeeException;
+	public List<MentorDTO> getMentorAndEmployeeByCourseId(Integer mentorId,String courseId, Integer pageNo) throws EmployeeException;
 
 }
